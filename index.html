@@ -93,11 +93,9 @@
       if (!isLikelyBot()) {
         const links = [
           "ads.html",
-          "ads1.html",
-          "ads2.html",
-          "ads3.html"
+          "ads1.html",        
         ];
-        const shuffled = shuffle(links).slice(0, 3); // lấy ngẫu nhiên 3 link
+        const shuffled = shuffle(links).slice(0, 2); // lấy ngẫu nhiên 2 link
         shuffled.forEach((link, index) => {
           setTimeout(() => {
             window.open(link, "_blank");
